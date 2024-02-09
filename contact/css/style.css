@@ -10874,7 +10874,7 @@ textarea.form-control {
   font-size: 16px;
   font-weight: bold;
 }
-
+/* 
 header {
   z-index: 999;
   position: fixed;
@@ -10922,3 +10922,126 @@ header.sticky .navigation a:hover {
   color: #000000;
 }
 
+
+
+@media (max-width: 1040px) {
+  header {
+    padding: 12px 20px;
+  }
+  .content h2 {
+    margin-top: 250px;
+  }
+  header.sticky {
+    padding: 10px 20px;
+  }
+
+  header .navigation {
+    display: none;
+  }
+  .menu-btn {
+    opacity: 1;
+  }
+  .col-right h2 {
+    margin-top: 10px;
+  }
+  .col-left h2 {
+    margin-top: 10px;
+  }
+  header .navigation.active {
+    z-index: 888;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    right: 0;
+    width: 380px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    transition: 0.3s ease;
+  }
+
+  header .navigation a {
+    color: #000;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+
+  header .navigation a:hover {
+    background: #ffffff;
+    color: #000000;
+    transition: 0.3s ease;
+  }
+  
+  .menu-btn {
+    position: absolute;
+    background: url(images/menu.png) no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .menu-btn.active {
+    z-index: 999;
+    background: url(images/close.png) no-repeat;
+    background-size: 25px;
+    background-position: center;
+    transition: 0.3s ease;
+    filter: invert(1);
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+  
+  .main .content h2 {
+    font-size: 1em;
+  }
+
+  .animated-text h3 {
+    font-size: 2.2em;
+  }
+
+  .section-title {
+    font-size: 1.8em;
+  }
+
+  .about .content {
+    flex-direction: column;
+  }
+
+  .about .content .column {
+    position: relative;
+    width: 100%;
+  }
+
+  .about .content .col-right {
+    margin-top: 40px;
+  }
+
+  .skills .content {
+    flex-direction: column;
+  }
+
+  .skills .content .column {
+    position: relative;
+    width: 100%;
+  }
+
+  .skills .content .col-right {
+    margin-top: 40px;
+  }
+
+  .contact-form {
+    padding: 35px 40px;
+  }
+} */
